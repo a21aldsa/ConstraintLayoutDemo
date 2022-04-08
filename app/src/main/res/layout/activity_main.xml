@@ -25,7 +25,12 @@
                 android:layout_height="wrap_content"
                 android:text="TextView"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toEndOf="@id/card_title_image"/>
+                app:layout_constraintStart_toEndOf="@id/card_title_image"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                />
 
             <ImageView
                 android:id="@+id/card_title_image"
